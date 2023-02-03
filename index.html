@@ -1,0 +1,53 @@
+<!DOCTYPE html> 
+<html>
+    <head>
+        <link rel="stylesheet" href="index.js">
+        <link rel="stylesheet" href="style.css">
+        <title>Personal portfolio Website with Typing Effect</title>
+    </head>
+    <body>
+        <div class="container">
+            <nav>
+                <div class="logo">folio<b>.</b></div>
+                <ul class="navItems">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Skills</a></li>
+                    <li><a href="#">Blog</a></li>
+                </ul>
+                <div class="links">
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                </div>
+            </nav>
+
+            <div class="wrapper">
+                <div class="cols cols0">
+                    <span class="topline">Hello</span>
+                    <h1>I'm <span class="multitext">Coder</span></h1>
+                    <p>Coding is essentially a problem-solving process that helps to analyze a situation or goal and then use problem-solving skills to determine and implement a solution.</p>
+                    <div class="btns">
+                        <button>Download CV</button>
+                        <button>Hire Me</button>
+                    </div>
+                </div>
+                <div class="cols cols1"></div>
+                <div class="imgbox">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSebNVTUwhxDf2vcMHSA4Om-wPsdwJiA0ieYA&usqp=CAU"id="splash">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRa4hrCV4MFvFmHeBlkb9xlJZYQr_X-GoIdAw&usqp=CAU">
+                    </div>
+                </div>
+            </div>
+            <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+            <script>
+            var typingEffect = new Typed(".multitext",{
+                strings : ["coder","youtuber","designer"],
+                loop : true,
+                typeSpeed : 100,
+                backSpeed : 80,
+                backDelay : 1500,
+             })
+        </script>
+    </body>
+</html>
